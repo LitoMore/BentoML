@@ -327,7 +327,7 @@ def add_bento_management_commands(cli: Group):
         help="Whether to push the result bento to BentoCloud. Make sure to login with 'bentoml cloud login' first.",
     )
     @click.option(
-        "--cloud-context",
+        "--context",
         "context",
         type=click.STRING,
         default=None,
